@@ -1,0 +1,27 @@
+body
+{
+    font-family:Verdana;
+    font-size:12px;
+    background-color:#ffefde;
+}
+h1 {font-size:18px;color:#000000;margin-bottom:0px;}
+h2 {font-size:16px;color:#000000;}
+h3 {font-size:14px;color:#000000;}
+p {margin-top:0px;}
+
+
+#title {
+    height:50px;
+    padding:5px;
+    border-bottom:1px solid #000000;
+    margin-bottom:20px;
+}
+#left {
+    width:14%;
+    float:left;
+    line-height:18px;
+}
+#content {
+    width:80%;
+    float:right;
+}

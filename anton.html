@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="anton">
+<head>
+    <title>Ackerschlag</title>
+    <link rel="stylesheet" href="anton.css">
+    <script src="angular.js"></script>
+    <script src="anton.js"></script>
+    <title>Anton</title>
+</head>
+<body>
+   <div id="title"><h1>Anton Ackerschlagdatei </h1></div>
+
+   <div id="left" ng-controller="SchlagCtrl">
+
+       <input type="text" ng-model="neuerSchlag.name">
+       <button ng-click="addSchlag()">Add</button>
+
+       <li ng-repeat="schlag in schlagArray">
+           <h2>{{schlag.name}}</h2>
+
+
+       </li>
+   </div>
+
+   <div id="content">
+       <h3>Hier steht der Content.</h3> <input type="date">
+
+   </div>
+
+</body>
+</html>
