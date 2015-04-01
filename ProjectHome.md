@@ -1,0 +1,1 @@
+This is to learn the angularJS and JS technologies. The sample project is for managing fields.
